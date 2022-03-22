@@ -1,0 +1,10 @@
+.totalTrades__title {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.totalTrades__value {
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}

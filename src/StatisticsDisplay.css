@@ -1,0 +1,17 @@
+.statisticsDisplay__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.statisticsDisplay__title {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.statisticsDisplay__values > p {
+  text-align: right;
+}
+.statisticsDisplay__labels > p,
+.statisticsDisplay__values > p {
+  margin-bottom: 10px;
+}

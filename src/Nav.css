@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
+
+.nav__brand {
+    display: flex;
+
+    margin-left: 10%;
+}
+
+.nav__brand > p {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin-left: 10px;
+}

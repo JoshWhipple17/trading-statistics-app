@@ -1,0 +1,56 @@
+.statistics {
+  grid-gap: 40px;
+  display: grid;
+  height: 80vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "a a a a c c c c d d d d"
+    "a a a a c c c c d d d d"
+    "a a a a c c c c e e e e"
+    "b b b b c c c c e e e e"
+    ". . . . c c c c e e e e"
+    ". . . . c c c c e e e e";
+
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.statistics__newEntry {
+  grid-area: a;
+}
+
+.statistics__addNewTrade {
+  grid-area: b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statistics__addNewTrade:hover {
+  cursor: pointer;
+}
+.statistics__addNewTrade:active {
+  box-shadow: none;
+}
+
+.statistics__tradeLog {
+  grid-area: c;
+}
+
+.statistics__totalTrades {
+  grid-area: d;
+}
+
+.statistics__statisticsDisplay {
+  grid-area: e;
+}
+
+.statistics__newEntry,
+.statistics__addNewTrade,
+.statistics__tradeLog,
+.statistics__totalTrades,
+.statistics__statisticsDisplay {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 25%);
+}

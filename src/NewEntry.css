@@ -1,0 +1,17 @@
+.newEntry__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.newEntry__content > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.newEntry__title {
+  text-align: center;
+  padding: 5px 0;
+}
